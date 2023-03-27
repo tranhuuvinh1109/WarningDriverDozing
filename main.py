@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='yolov5/runs/train/exp23/weights/last.pt', force_reload=True)
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='exp23/weights/last.pt', force_reload=True)
 
 cap = cv2.VideoCapture(0)
 time_awake = 0
